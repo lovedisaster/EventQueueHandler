@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { useEffect, useState,useRef } from 'react';
+import { useState,useRef } from 'react';
 import {EventQueueHandler} from './EventQueueHandler/EventQueueHandler';
 function App() {
   const button1 = useRef(null);
